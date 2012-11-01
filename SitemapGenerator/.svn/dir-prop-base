@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 10
+target
+.*
+
+K 13
+svn:mergeinfo
+V 45
+/branches/structures/SitemapGenerator:201-242
+END

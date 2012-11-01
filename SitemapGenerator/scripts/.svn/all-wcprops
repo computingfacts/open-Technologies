@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/enzymeportal/!svn/ver/1039/trunk/enzyme-portal/SitemapGenerator/scripts
+END
+sitemapOverloaded.sh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/enzymeportal/!svn/ver/1299/trunk/enzyme-portal/SitemapGenerator/scripts/sitemapOverloaded.sh
+END
+mvnBuild.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/enzymeportal/!svn/ver/761/trunk/enzyme-portal/SitemapGenerator/scripts/mvnBuild.sh
+END
+sitemap.sh
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/enzymeportal/!svn/ver/1299/trunk/enzyme-portal/SitemapGenerator/scripts/sitemap.sh
+END
