@@ -110,7 +110,7 @@
                     <div id="sidebarwrap">
                         <h2>About Me</h2>
                         <img src="images/joe.jpg" width="80"px height="60"px alt="img" class="alignleft"></img>
-                        <p id="intro" >I am a software developer with immense passion for computing information engineering. This Blogging system was developed to demonstrate some of the capabilities of Java EE technologies, and i would be using this platform to share some of my computing experiences over the years.</p>
+                        <p id="intro" >I am a software developer with immense passion for computing information engineering. This Blog system was developed to demonstrate some of the capabilities of Java EE technologies, and i would be using this platform to share some of my computing experiences over the years.</p>
                         <h2>Connect with me</h2>
                         <div id="social_icons_2">
                             <a href="http://twitter.com/josefsamz" title="Follow computingfacts on Twitter"><img src="images/twitter_32.png" alt="Follow computingfacts on Twitter" title="Follow computingfacts on Twitter"/></a>&nbsp;<a href="http://www.facebook.com/pages/Computingfacts/240780319316788?sk=wall" title="Follow Computingfacts on FaceBook"><img src="images/facebook_32.png" alt="Follow Computingfacts on FaceBook" title="Follow Computingfacts on FaceBook"/></a>&nbsp;<a href="http://www.linkedin.com/pub/joseph-o/30/99b/663" title="View my Linkedin Profile"><img src="images/linkedin_32.png" alt="view my Linkedin profile" title="View my Linkedin profile"/></a> &nbsp;   
