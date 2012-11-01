@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /images/
+Disallow: /secured/newBlog.jsp
+Disallow: /secured/admin.jsp
+Sitemap: http://www.computingfacts.com/sitemap.xml

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glassfish-web-app PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Servlet 3.0//EN" "http://glassfish.org/dtds/glassfish-web-app_3_0-1.dtd">
+<glassfish-web-app error-url="">
+  <!--  <context-root>/MyblogApps</context-root>-->
+  <context-root>/</context-root>
+  <security-role-mapping>
+    <role-name>admin</role-name>
+    <principal-name>secured</principal-name>
+    <group-name>Admin</group-name>
+  </security-role-mapping>
+  <class-loader delegate="true"/>
+  <jsp-config>
+    <property name="keepgenerated" value="true">
+      <description>Keep a copy of the generated servlet class' java code.</description>
+    </property>
+  </jsp-config>
+  <glassfish-welcome-file>home.jsp</glassfish-welcome-file>
+  <glassfish-welccome-file-list>
+    <glassfish-welcome-file>home.jsp</glassfish-welcome-file>
+    <welcome-file>home.jsp</welcome-file>
+  </glassfish-welccome-file-list>
+  <welccome-file-list>
+    <welcome-file>h</welcome-file>
+  </welccome-file-list>
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <realm-name>newjdbcRealm</realm-name>
+    <form-login-config>
+      <form-login-page>login.jsp</form-login-page>
+      <form-error-page>loginerror.jsp</form-error-page>
+      <form-login-page/>
+    </form-login-config>
+  </login-config>
+  <!-- SECURITY CONSTRAINT #1 -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>secured</web-resource-name>
+      <url-pattern>/secured/*</url-pattern>
+      <http-method>GET</http-method>
+      <http-method>POST</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>admin</role-name>
+    </auth-constraint>
+    <user-data-constraint>
+      <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+   </security-constraint>
+
+</glassfish-web-app>

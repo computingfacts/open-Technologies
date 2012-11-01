@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : sitemap.xml
+    Created on : 19 August 2011, 21:46
+    Author     : Joseph
+    Description:
+        Purpose of the document follows.
+-->
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+
+         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+
+    <url>
+
+        <loc>http://www.computingfacts.com/home.jsp</loc>
+
+        <lastmod>2011-09-08</lastmod>
+
+        <changefreq>daily</changefreq>
+
+        
+
+    </url>
+
+    <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=Computational%20Intelligence</loc>
+
+        <lastmod>2011-11-11</lastmod>
+        
+
+    </url>
+    <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=How%20to%20Generate%20XML%20in%20Java%20Using%20JAXB</loc>
+
+        <lastmod>2011-11-11</lastmod>
+        
+
+    </url>
+    
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/contact.jsp</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+    </url>
+
+    <url>
+
+        <loc>http://www.computingfacts.com/about.jsp</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+    </url>
+    
+    
+       
+    <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=Adapter%20Pattern%20In%20Java</loc>
+
+        <lastmod>2011-11-11</lastmod>
+        
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=XML%20Parsing%20in%20Java%20using%20JAXB</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=Singleton%20Pattern%20in%20Java</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=Builders%20Pattern%20in%20Java</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=Mutable%20and%20Immutable%20Objects</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+        <changefreq>daily</changefreq>
+       
+
+    </url>
+        <url>
+
+        <loc>http://www.computingfacts.com/blog.jsp?title=Defensive%20Copying%20Java</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+        <changefreq>daily</changefreq>
+       
+
+    </url>
+        <url>
+
+        <loc>http://www.computingfacts.com/home.jsp?blogCategory=Software%20Design%20Pattern</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+        <changefreq>daily</changefreq>
+       
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/home.jsp?blogCategory=Cloud%20Computing</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+        <changefreq>daily</changefreq>
+
+        
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/home.jsp?blogCategory=Web%20Application</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+        <changefreq>daily</changefreq>
+
+        
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/home.jsp?archive=September</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+        <changefreq>daily</changefreq>
+
+        
+
+    </url>
+    
+    <url>
+
+        <loc>http://www.computingfacts.com/home.jsp?archive=August</loc>
+
+        <lastmod>2011-11-11</lastmod>
+
+        <changefreq>daily</changefreq>
+
+        
+
+    </url>
+
+</urlset>
+
