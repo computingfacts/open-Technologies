@@ -1,0 +1,94 @@
+[INFO]-[2012-10-26 10:57:07,206]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 10:58:28,498]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 10:58:29,851]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 11:01:37,515]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 11:01:39,082]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:22:12,312]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 14:22:13,632]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:22:15,486]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:28:05,814]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 14:28:06,022]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:28:06,579]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[ERROR]-[2012-10-26 14:28:06,584]-SiteMapMain-main- /nfs/panda/production/steinbeck/ep/work is not a directory
+uk.ac.ebi.ep.sitemap.SiteMapException: /nfs/panda/production/steinbeck/ep/work is not a directory
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.checkWriteableDirectory(SiteMapResources.java:91)
+	at uk.ac.ebi.ep.sitemap.EpSiteMapImpl.generateSitemap(EpSiteMapImpl.java:113)
+	at uk.ac.ebi.ep.sitemap.SiteMapMain.main(SiteMapMain.java:66)
+[INFO]-[2012-10-26 14:28:49,979]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 14:28:50,092]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:28:50,573]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[ERROR]-[2012-10-26 14:28:50,579]-SiteMapMain-main- /nfs/panda/production/steinbeck/ep/work is not a directory
+uk.ac.ebi.ep.sitemap.SiteMapException: /nfs/panda/production/steinbeck/ep/work is not a directory
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.checkWriteableDirectory(SiteMapResources.java:91)
+	at uk.ac.ebi.ep.sitemap.EpSiteMapImpl.generateSitemap(EpSiteMapImpl.java:113)
+	at uk.ac.ebi.ep.sitemap.SiteMapMain.main(SiteMapMain.java:66)
+[INFO]-[2012-10-26 14:29:44,777]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 14:29:44,878]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:29:45,371]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:34:38,725]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:34:39,230]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:34:47,283]-SiteMapMain-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 14:34:47,366]-DatabaseInstance-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:34:47,586]-DatabaseInstance-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:37:45,366]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:37:45,872]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:38:25,932]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:38:26,402]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:38:33,769]-SiteMapMain-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- ***************SitemapGenerator Launched*********************
+[ERROR]-[2012-10-26 14:38:33,776]-DatabaseInstance-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- Unable to open configuration file ep-mm-db-enzdev-ro
+[FATAL]-[2012-10-26 14:38:33,779]-SiteMapResources-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- IOException while creating the megaMapper
+java.io.IOException: Unable to open configuration file ep-mm-db-enzdev-ro
+	at uk.ac.ebi.biobabel.util.db.DatabaseInstance.loadProperties(DatabaseInstance.java:137)
+	at uk.ac.ebi.biobabel.util.db.OracleDatabaseInstance.loadProperties(OracleDatabaseInstance.java:55)
+	at uk.ac.ebi.biobabel.util.db.OracleDatabaseInstance.getInstance(OracleDatabaseInstance.java:75)
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.getConnection(SiteMapResources.java:57)
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.initMegaMapper(SiteMapResources.java:44)
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.<init>(SiteMapResources.java:33)
+	at uk.ac.ebi.ep.sitemap.EpSiteMapImpl.<init>(EpSiteMapImpl.java:49)
+	at uk.ac.ebi.ep.sitemap.SiteMapMain.main(SiteMapMain.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:297)
+	at java.lang.Thread.run(Thread.java:680)
+[INFO]-[2012-10-26 14:39:29,132]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:39:29,646]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:39:48,302]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:39:48,762]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:39:53,876]-SiteMapMain-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- ***************SitemapGenerator Launched*********************
+[ERROR]-[2012-10-26 14:39:53,881]-DatabaseInstance-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- Unable to open configuration file ep-mm-db-enzdev-ro
+[FATAL]-[2012-10-26 14:39:53,881]-SiteMapResources-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- IOException while creating the megaMapper
+java.io.IOException: Unable to open configuration file ep-mm-db-enzdev-ro
+	at uk.ac.ebi.biobabel.util.db.DatabaseInstance.loadProperties(DatabaseInstance.java:137)
+	at uk.ac.ebi.biobabel.util.db.OracleDatabaseInstance.loadProperties(OracleDatabaseInstance.java:55)
+	at uk.ac.ebi.biobabel.util.db.OracleDatabaseInstance.getInstance(OracleDatabaseInstance.java:75)
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.getConnection(SiteMapResources.java:57)
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.initMegaMapper(SiteMapResources.java:44)
+	at uk.ac.ebi.ep.sitemap.SiteMapResources.<init>(SiteMapResources.java:33)
+	at uk.ac.ebi.ep.sitemap.EpSiteMapImpl.<init>(EpSiteMapImpl.java:49)
+	at uk.ac.ebi.ep.sitemap.SiteMapMain.main(SiteMapMain.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:297)
+	at java.lang.Thread.run(Thread.java:680)
+[INFO]-[2012-10-26 14:41:11,133]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 14:41:11,582]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:41:12,064]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:42:32,803]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:42:33,291]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:42:38,362]-SiteMapMain-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 14:42:38,439]-DatabaseInstance-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 14:42:38,657]-DatabaseInstance-uk.ac.ebi.ep.sitemap.SiteMapMain.main()- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 15:13:53,108]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 15:13:53,570]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 15:13:54,100]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 15:15:17,481]-SiteMapMain-main- ***************SitemapGenerator Launched*********************
+[INFO]-[2012-10-26 15:15:17,581]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 15:15:18,114]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 16:17:43,254]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 16:17:44,236]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 16:20:04,213]-DatabaseInstance-main- Connecting to enzyme_portal@ENZDEV
+[INFO]-[2012-10-26 16:20:04,823]-DatabaseInstance-main- Connected to enzyme_portal@ENZDEV
