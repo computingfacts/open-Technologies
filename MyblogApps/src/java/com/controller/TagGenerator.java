@@ -32,6 +32,7 @@ public class TagGenerator {
 
     private static final Double MAX_WEIGHT = 38.0;
     private static final Integer MAX_DISPLAY = 10;
+    //this is the property files where blacklisted files are listed.
    // private static final String PROP_FILE = "dictionary_blacklist.properties";
     private static Filter<Tag> filter = new DictionaryFilter(ResourceBundle.getBundle("com.controller.dictionary_blacklist"));
 
